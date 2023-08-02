@@ -28,4 +28,5 @@ dependencies {
     api(libs.compose.shimmer)
     implementation(libs.exoplayer)
     implementation(project(":core:domain"))
+    implementation(project(":core:database"))
 }
