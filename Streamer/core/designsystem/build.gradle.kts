@@ -26,5 +26,6 @@ dependencies {
     api(libs.palette)
     api(libs.compose.coil)
     api(libs.compose.shimmer)
+    implementation(libs.exoplayer)
     implementation(project(":core:domain"))
 }

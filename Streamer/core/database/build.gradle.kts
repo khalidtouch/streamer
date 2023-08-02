@@ -1,5 +1,6 @@
 plugins {
     id("streamer.android.library")
+    id("streamer.android.library.compose")
     id("streamer.android.hilt")
     id("streamer.android.room")
 }
@@ -14,5 +15,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.compose.runtime)
+    implementation(libs.exoplayer)
     testImplementation(project(":core:testing"))
 }
